@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+
+	<style>
+	body {
+		background-color: #a4a2eb;
+	}
+	#one {
+		width: 50px;
+		length: 50px;
+	}
+
+	body{
+				background-image: url(https://img.freepik.com/free-vector/fruits-pattern-with-oranges_23-2148580312.jpg?w=826&t=st=1714967520~exp=1714968120~hmac=649221062f84e77b5d0df53f816bbaa04018969db3c88673e448832425fe2484);
+				background-repeat: no-repeat;
+				background-size: 1470px 1050px;
+				background-position: center;
+				background-attachment: scroll;
+				background-color: rgb(89, 200, 255);}
+
+		img{ border: 10px solid #E3E330;}
+
+	</style>
+</head>
+<body>
+<center>
+	<h1>My Portfolio</h1>
+	<nav class="navbar navbar-expand-md bg-success">
+		<a class="navbar-brand" href="https://www.obmontessori.edu.ph"><img src="Fuentes.jpg"></a>
+		<br><br>
+	<li class="nav-item">
+		<a id="links" class="nav-link" href="page2.html" onclick="firstquarter()">First Quarter</a>
+	</li>
+	<br>
+	<li class="nav-item">
+		<a id="links2" class="nav-link" href="page3.html" onclick="secondquarter()">Second Quarter</a>
+	</li>
+<script type="text/javascript">
+	function firstquarter(){
+		document.getElementById('links').innerHTML="View 1st Quarter Projects"; //lets you view First Quarter
+	}
+	function secondquarter(){
+		document.getElementById('links2').innerHTML="View 2nd Quarter Projects"; //lets you view Second Quarter
+	}
+</script>
+</center>
+</body>
+</html>
